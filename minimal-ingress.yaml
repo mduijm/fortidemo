@@ -2,8 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: minimal-ingress 
-  annotations:
-    annotations: {
+  annotations: {
     "fortiadc-ip" : "172.16.0.2",
     "fortiadc-admin" : "admin",
     "fortiadc-admin-pwd" : "fortinet",
@@ -26,4 +25,4 @@ spec:
           service:
             name: hello-minikube
             port: 
-              number: 31133
+              number: 8080
