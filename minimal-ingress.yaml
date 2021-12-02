@@ -25,5 +25,5 @@ spec:
         backend:
           service:
             name: hello-minikube
-            port:
-            number: 31133
+            port: 
+              number: 31133
