@@ -1,7 +1,7 @@
-apiVersion: networking.k8s.io/v1 
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: minimal-ingress 
+  name: minimal-ingress
   annotations: {
     "fortiadc-ip" : "172.16.0.2",
     "fortiadc-admin" : "admin",
@@ -15,14 +15,14 @@ metadata:
     "load-balance-profile" : "LB_PROF_HTTPS"
 }
 spec:
- ingressClassName: fadc-ingress-controller 
+ ingressClassName: fadc-ingress-controller
  rules:
  - http:
-     paths:
-     - path: "/"
-        pathType: Prefix 
-        backend:
-          service:
-            name: hello-minikube
-            port: 
-              number: 8080
+    paths:
+    - path: /
+      pathType: Prefix
+      backend:
+        service:
+          name: hello-minikube
+          port:
+            number: 8080
