@@ -5,7 +5,7 @@ metadata:
   annotations: {                                                                                                                                                                                           
     "fortiadc-ip" : "172.16.0.2",                                                                                                                                                                          
     "fortiadc-admin" : "admin",                                                                                                                                                                            
-    "fortiadc-admin-pwd" : "xxx",                                                                                                                                                                     
+    "fortiadc-admin-pwd" : "###change to real password###",                                                                                                                                                                     
     "fortiadc-vdom" : "ingress",                                                                                                                                                                           
     "fortiadc-ctrl-log" : "enable",                                                                                                                                                                        
     "virtual-server-ip" : "10.200.0.100",                                                                                                                                                                  
