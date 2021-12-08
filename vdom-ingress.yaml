@@ -8,7 +8,7 @@ metadata:
     "fortiadc-admin-pwd" : "###change to real password###",                                                                                                                                                                     
     "fortiadc-vdom" : "ingress",                                                                                                                                                                           
     "fortiadc-ctrl-log" : "enable",                                                                                                                                                                        
-    "virtual-server-ip" : "10.200.0.100",                                                                                                                                                                  
+    "virtual-server-ip" : "10.200.0.101",                                                                                                                                                                  
     "virtual-server-interface" : "vlan_100",                                                                                                                                                               
     "virtual-server-port" : "443",                                                                                                                                                                         
     "load-balance-method" : "LB_METHOD_LEAST_CONNECTION",                                                                                                                                                  
