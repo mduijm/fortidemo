@@ -17,12 +17,12 @@ metadata:
 spec:
  ingressClassName: fadc-ingress-controller
  rules:
- - http:                                                                                                                                                                                                   
-    paths:                                                                                                                                                                                                 
-    - path: /                                                                                                                                                                                              
-      pathType: Prefix                                                                                                                                                                                     
-      backend:                                                                                                                                                                                             
-        service:                                                                                                                                                                                           
-          name: hello-minikube                                                                                                                                                                             
-          port:                                                                                                                                                                                            
+ - http:
+    paths:
+    - path: /
+      pathType: Prefix
+      backend:
+        service:
+          name: hello-minikube
+          port:
             number: 8080
