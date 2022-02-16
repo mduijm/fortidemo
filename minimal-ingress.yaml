@@ -4,8 +4,7 @@ metadata:
   name: minimal-ingress
   annotations: {
     "fortiadc-ip" : "10.0.100.133",
-    "fortiadc-admin" : "admin",
-    "fortiadc-admin-pwd" : "###change to real password###",
+    "fortiadc-login" : "fad-login",
     "fortiadc-vdom" : "root",
     "fortiadc-ctrl-log" : "enable",
     "virtual-server-ip" : "172.23.133.10",
