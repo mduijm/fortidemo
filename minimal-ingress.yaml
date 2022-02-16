@@ -3,13 +3,13 @@ kind: Ingress
 metadata:
   name: minimal-ingress
   annotations: {
-    "fortiadc-ip" : "172.16.0.2",
+    "fortiadc-ip" : "10.0.100.133",
     "fortiadc-admin" : "admin",
     "fortiadc-admin-pwd" : "###change to real password###",
     "fortiadc-vdom" : "root",
     "fortiadc-ctrl-log" : "enable",
-    "virtual-server-ip" : "10.1.0.100",
-    "virtual-server-interface" : "port3",
+    "virtual-server-ip" : "172.23.133.10",
+    "virtual-server-interface" : "port1",
     "virtual-server-port" : "443",
     "load-balance-method" : "LB_METHOD_LEAST_CONNECTION",
     "load-balance-profile" : "LB_PROF_HTTPS"
